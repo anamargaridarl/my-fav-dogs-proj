@@ -1,12 +1,7 @@
 <header class="header">
     <div class="menu">
-        <fa-icon [icon]="faBars" [styles]="{'color': 'var(--grey-3)'}"></fa-icon>
+        <fa-icon (click)="onClick()" [icon]="faBars" [styles]="{'color': 'var(--grey-3)'}"></fa-icon>
     </div>
-    <nav>
-        <ul><a routerLink="/"> DashBoards </a></ul>
-        <ul><a routerLink="/"> Add New Chart </a></ul>
-        <ul><a routerLink="/"> Delete Chart </a></ul>
-    </nav>
     <form class="input-group w-auto rounded-pill navbar-search" action="/search" method="GET">
         <span class="input-group-append">
             <fa-icon [icon]="faSearch" [styles]="{'color': 'var(--grey-2)'}"> </fa-icon>
