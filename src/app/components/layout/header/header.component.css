@@ -1,0 +1,68 @@
+@import url("../../../../pallete.css");
+
+header{
+    padding: 0.25em;
+    background-color: var(--grey-1);
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 2.25fr 1.75fr 0.25fr 0.25fr;
+    grid-template-areas: "hamb . search . fav prof";
+}
+
+header nav{
+   display: none
+}
+
+header h1{
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    background-color: var(--grey-1);
+}
+
+header .profile{
+    grid-area: prof;
+    display: flex;
+}
+
+header .profile p{
+    color: var(--grey-3);
+    padding-left: 2em;
+    border-left: 1px solid var(--orange);
+}
+
+header .profile img{
+  border-radius: 300px;
+}
+
+
+header .faSearch {    
+    color: var(--orange);
+}
+
+
+.favourites {    
+    grid-area: fav;
+}
+/*search bar*/
+header form{
+    grid-area: search;
+    margin: auto 0;
+}
+
+header form span{
+    padding: 0.15em 0.5em 0 0.5em;
+    background-color: var(--white);
+    border: 1px solid var(--orange);
+    border-right:none;
+    border-radius: 5px 0 0 5px;
+    height: 1.85em;
+}
+
+header form input{
+    border: 1px solid var(--orange);
+    border-left:none;
+    height: 1.85em;
+}
+/*end search bar*/
+
+
+

@@ -1,0 +1,24 @@
+<header class="header">
+    <div class="menu">
+        <fa-icon [icon]="faBars" [styles]="{'color': 'var(--grey-3)'}"></fa-icon>
+    </div>
+    <nav>
+        <ul><a routerLink="/"> DashBoards </a></ul>
+        <ul><a routerLink="/"> Add New Chart </a></ul>
+        <ul><a routerLink="/"> Delete Chart </a></ul>
+    </nav>
+    <form class="input-group w-auto rounded-pill navbar-search" action="/search" method="GET">
+        <span class="input-group-append">
+            <fa-icon [icon]="faSearch" [styles]="{'color': 'var(--grey-2)'}"> </fa-icon>
+        </span>
+        <input class="form-control border-left-0" type="text" id="query" name="query"
+            placeholder="Search for a product...">
+    </form>
+    <div class="favourites">
+        <fa-icon [icon]="faHeart" [styles]="{'color': 'var(--grey-3)'}"></fa-icon>
+    </div>
+    <div class="profile">
+        <p>Ana</p>
+        <img src="../../../../assets/img/daisy.jpg" alt="profilepicture" height="40px" width="40px">
+    </div>
+</header>
