@@ -7,8 +7,9 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SidemenuComponent } from './components/layout/sidemenu/sidemenu.component';
 import { DashInfoComponent } from './components/dash-info/dash-info.component';
-import { DashCreateComponent } from './components/dash-create/dash-create.component';
 import { SidebarModule } from 'ng-sidebar';
+import { HttpClientModule } from '@angular/common/http';
+import { BreedImageComponent } from './components/breed-image/breed-image.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,14 @@ import { SidebarModule } from 'ng-sidebar';
     HeaderComponent,
     SidemenuComponent,
     DashInfoComponent,
-    DashCreateComponent
+    BreedImageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     SidebarModule.forRoot(),
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

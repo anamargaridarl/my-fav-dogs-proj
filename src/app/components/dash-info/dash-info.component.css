@@ -1,0 +1,14 @@
+ .breedlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.breedlist .card{
+    margin: 1em;
+}
+
+.breedlist .card button{
+    background-color: var(--orange);
+    border-color: var(--grey-3);
+}

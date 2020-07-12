@@ -1,10 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url("pallete.css");
-
-
 body {
     margin: 0;
     font-family: var(--fonts);
 }
 
+:root {
+    --white: white;
+    --black: black;
+    --orange:  #f58f7c;
+    --rose: #f2c4ce;
+    --grey-2: #4f4f51;
+    --grey-3: #d6d6d6;
+    --grey-1: #2c2b30;
+    --grey-4: #f8f8f8;
+    
+    
+
+    --fonts: 'Montserrat', sans-serif;
+}

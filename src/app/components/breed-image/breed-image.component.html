@@ -1,0 +1,11 @@
+<h1 class="text-center">{{breedName}}</h1>
+<div class="breeds-images container justify-content-center">
+    <div class="addbutton row justify-content-center">
+        <button (click)="onClick()" type="button" class="btn btn-primary"> Search Image</button>
+    </div>
+    <div class="images row">
+        <div *ngFor="let imageSrc of breedImages" class="image col-3">
+            <img class="justify-content-center" [src]="imageSrc" alt="dog" height="200px" width="200px">
+        </div>
+    </div>
+</div>

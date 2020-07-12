@@ -1,6 +1,9 @@
-@import url("../../../../pallete.css");
-
 header{
+    display: block;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0;
     padding: 0.1em;
     background-color: var(--grey-2);
     display: grid;

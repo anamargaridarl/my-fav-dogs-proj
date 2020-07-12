@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faBars, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
-import {LayoutService} from '../layout.service'
+import {LayoutService} from '../../../services/layout.service'
 
 
 @Component({

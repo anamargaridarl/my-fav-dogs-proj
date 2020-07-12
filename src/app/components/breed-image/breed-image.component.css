@@ -1,0 +1,16 @@
+h1{
+    color: var(--rose);
+    text-transform: capitalize;
+}
+
+.breeds-images .images .image{
+    margin: 2em;
+}
+
+.breeds-images button{
+    margin-top: 2em;
+    background-color: var(--grey-3);
+    border-color: var(--grey-3);
+    align-self: center;
+}
+

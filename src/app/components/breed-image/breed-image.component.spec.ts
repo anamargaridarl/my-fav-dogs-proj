@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DashCreateComponent } from './dash-create.component';
+import { BreedImageComponent } from './breed-image.component';
 
-describe('DashCreateComponent', () => {
-  let component: DashCreateComponent;
-  let fixture: ComponentFixture<DashCreateComponent>;
+describe('BreedImageComponent', () => {
+  let component: BreedImageComponent;
+  let fixture: ComponentFixture<BreedImageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DashCreateComponent ]
+      declarations: [ BreedImageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DashCreateComponent);
+    fixture = TestBed.createComponent(BreedImageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
