@@ -1,11 +1,7 @@
+<h1 class="text-center">Breeds List</h1>
 <div class="breedlist col-8 container">
-  <div *ngFor="let breed of breedslist" class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">{{breed[0]}}</h5>
-      <ul *ngIf="breed[1].length != 0">
-        <p> {{breed[1]}}</p>
-      </ul>
-      <button type="button" class="btn btn-primary align-bottom" [routerLink]="['breed', breed[0]]"> Search Image</button>
-    </div>
+  <div *ngFor="let breed of breedslist" class="breeditem">
+    <p> {{breed[0]}} </p>
+    <a [routerLink]="['breed', breed[0]]"> Search Image</a>
   </div>
 </div>

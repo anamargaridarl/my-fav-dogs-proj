@@ -1,5 +1,5 @@
 h1{
-    color: var(--rose);
+    color: var(--orange);
     text-transform: capitalize;
 }
 
@@ -23,7 +23,7 @@ h1{
 }
 
 .images .card a{
-    background-color: var(--rose);
+    background-color: var(--dark-blue);
 }
 
 .images fa-icon{

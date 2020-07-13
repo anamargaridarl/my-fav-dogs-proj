@@ -1,17 +1,17 @@
 <header class="header">
     <div class="menu">
-        <fa-icon (click)="onClick()" [icon]="faBars" [styles]="{'color': 'var(--grey-3)'}"></fa-icon>
+        <fa-icon (click)="onClick()" [icon]="faBars" [styles]="{'color': 'var(--white)'}"></fa-icon>
     </div>
     <form class="input-group w-auto rounded-pill navbar-search" action="/search" method="GET">
         <span class="input-group-append">
-            <fa-icon [icon]="faSearch" [styles]="{'color': 'var(--grey-2)'}"> </fa-icon>
+            <fa-icon [icon]="faSearch" [styles]="{'color': 'var(--white)'}"> </fa-icon>
         </span>
         <input class="form-control border-left-0" type="text" id="query" name="query"
             placeholder="Search for a product...">
     </form>
     <div class="favourites">
         <a routerLink="favourites">
-            <fa-icon [icon]="faHeart" [styles]="{'color': 'var(--grey-3)'}"></fa-icon>
+            <fa-icon [icon]="faHeart" [styles]="{'color': 'var(--white)'}"></fa-icon>
         </a>
     </div>
     <div class="profile">

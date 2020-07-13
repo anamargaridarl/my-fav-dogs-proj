@@ -9,11 +9,12 @@ ng-sidebar-container{
 }
 
 ::ng-deep aside {
-    background-color: var(--grey-1); 
+    background-color: var( --dark-grey); 
     padding:2em 4.5em 2em 1em;
 }
 
 ng-sidebar-container a {
-    color: var(--rose);
+    color: var(--white);
+    text-decoration: none;
 }
 

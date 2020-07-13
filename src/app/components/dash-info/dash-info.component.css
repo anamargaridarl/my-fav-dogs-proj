@@ -1,14 +1,22 @@
- .breedlist {
+.breeditem{
+    background-color: #ECECEC84;
+    padding: 0.25em 1em;
+    margin-bottom: 0.5em;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content: space-between;
 }
 
-.breedlist .card{
-    margin: 1em;
+.breeditem p{
+    margin-bottom: 0;
+    text-transform: capitalize;
 }
 
-.breedlist .card button{
-    background-color: var(--orange);
-    border-color: var(--grey-3);
+.breeditem a{
+    color: black;
+    text-decoration-line: underline;
+}
+
+h1{
+    font-size: 2em;
+    color: var(--orange)
 }
