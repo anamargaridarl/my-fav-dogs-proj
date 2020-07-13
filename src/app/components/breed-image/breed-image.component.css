@@ -7,10 +7,26 @@ h1{
     margin: 2em;
 }
 
+.breeds-images .img-wrapper{
+    height: 250px;
+    width: 250px;
+    margin: 1em auto;
+}
+
+.breeds-images .img-wrapper img{
+    height: 100%;
+    margin: auto;
+}
 .breeds-images button{
     margin-top: 2em;
-    background-color: var(--grey-3);
-    border-color: var(--grey-3);
     align-self: center;
+}
+
+.images .card a{
+    background-color: var(--rose);
+}
+
+.images fa-icon{
+    color: var(--black);
 }
 

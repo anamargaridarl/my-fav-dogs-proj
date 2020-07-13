@@ -1,11 +1,21 @@
 <h1 class="text-center">{{breedName}}</h1>
 <div class="breeds-images container justify-content-center">
     <div class="addbutton row justify-content-center">
-        <button (click)="onClick()" type="button" class="btn btn-primary"> Search Image</button>
+        <button (click)="onClick()" type="button" class="btn btn-light"> Search Image</button>
     </div>
     <div class="images row">
         <div *ngFor="let imageSrc of breedImages" class="image col-3">
-            <img class="justify-content-center" [src]="imageSrc" alt="dog" height="200px" width="200px">
+            <div class="card" style="width: 18rem;">
+                <div class="img-wrapper  text-center">
+                    <img class="card-img-to img-fluid border" [src]="imageSrc" alt="dog">
+                </div>
+                <div class="card-body  text-center">
+                    <a href="#" class="btn btn-light">
+                        <fa-icon [icon]="faHeart"></fa-icon> Add Favourites
+                    </a>
+
+                </div>
+            </div>
         </div>
     </div>
 </div>

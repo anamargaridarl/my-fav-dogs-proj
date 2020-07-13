@@ -10,6 +10,7 @@ import { DashInfoComponent } from './components/dash-info/dash-info.component';
 import { SidebarModule } from 'ng-sidebar';
 import { HttpClientModule } from '@angular/common/http';
 import { BreedImageComponent } from './components/breed-image/breed-image.component';
+import { FavouritesComponent } from './components/favourites/favourites.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { BreedImageComponent } from './components/breed-image/breed-image.compon
     SidemenuComponent,
     DashInfoComponent,
     BreedImageComponent,
+    FavouritesComponent,
   ],
   imports: [
     BrowserModule,

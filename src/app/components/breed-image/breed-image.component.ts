@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DogsInfoService } from '../../services/dogs-info.service';
 import { ActivatedRoute } from '@angular/router';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-breed-image',
@@ -11,6 +12,7 @@ export class BreedImageComponent implements OnInit {
 
   breedImages: string[] = [];
   breedName: string;
+  faHeart = faHeart;
 
   constructor(private dogsService: DogsInfoService, private route: ActivatedRoute) { }
 
